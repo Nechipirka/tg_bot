@@ -35,7 +35,7 @@ def registration_db(login_user, password_user, id_user):
         return False
 
 
-# Функция входа
+# Функция авторизации
 def login_db(login_user, password_user, id_user):
     # Устанавливаем соединение с базой данных
     connection = sqlite3.connect('db/data.db')
