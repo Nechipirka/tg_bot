@@ -1,0 +1,5 @@
+pyTelegramBotAPI   4.20.0
+requests           2.32.3
+sqlite3
+datetime
+math
