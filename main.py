@@ -96,7 +96,7 @@ def func(message):
         bot.send_message(message.chat.id, text='Обращайтесь снова)', parse_mode='html')
 
 
-# Функция входа пользователя
+# Функция авторизации пользователя
 def login(message):
     data = str(message.text).split()
     if len(data) != 2:
